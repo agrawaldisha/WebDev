@@ -38,11 +38,35 @@ body {
   padding: 0 4px;
   border-radius: 10px;
 }
+@keyframes mymove {
+  50% {transform: rotate(360deg);}
+}
+#gallery img:hover{
+  animation: mymove 1s 1;
+}
+h2{
+  color:darkgreen;
+  text-align:center;
+  font-size:50px;
+  text-shadow: 2px 2px 2px yellow;
+  text-decoration: underline overline ;
+  text-shadow:1px 1px 1px black;}
 
 @media (max-width: 800px) {
   #gallery img {
     width: 50%;
   }
+}
+h2:hover{
+  font-size:50px;
+  text-shadow: 2px 2px 2px yellow
+}
+h4{
+  color:black;
+  text-align:center;
+  text-decoration:underline;
+  margin:0;
+  font-weight:900px;
 }
 
 
@@ -50,19 +74,20 @@ body {
   </head>
   <body>
     <div class="header">
-      <h1>CSS FLEXBOX PHOTO GALLERY</h1>
+      <h2>AT GLA UNIVERSITY WE CREATE,WE INSPIRE</h2>
+      <h4>we make the way to your success</h4>
     </div>
     <div id="gallery">
-      <img src="https://picsum.photos/200"/>
-      <img src="https://picsum.photos/200"/>
-      <img src="https://picsum.photos/200"/>
-      <img src="https://picsum.photos/200">
-      <img src="https://picsum.photos/200"/>
-      <img src="https://picsum.photos/200"/>
-      <img src="https://picsum.photos/200"/>
-      <img src="https://picsum.photos/200"/>
-      <img src="https://picsum.photos/200"/>
-      <img src="https://picsum.photos/200"/>
+      <img src="images/gla1.jpg"/>
+      <img src="images/gla2.jpg"/>
+      <img src="images/gla3.jpg"/>
+      <img src="images/gla4.jpg">
+      <img src="images/gla5.jpg"/>
+      <img src="images/gla6.jpg"/>
+      <img src="images/gla7.jpg"/>
+      <img src="images/gla8.jpg"/>
+      <img src="images/gla9.jpg"/>
+      <img src="images/gla10.jpg"/>
     </div>
   </body>
 </html>
