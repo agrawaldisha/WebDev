@@ -31,10 +31,10 @@ body {
 }
 
 #gallery img {
-  width: 25%;
-  height: 300px;
-  object-fit: cover;
+  width:100%;
+  height:100%;
   margin-top: 8px;
+  object-fit: cover;
   padding: 0 4px;
   border-radius: 10px;
 }
@@ -51,7 +51,8 @@ h2{
   text-shadow: 2px 2px 2px yellow;
   text-decoration: underline overline ;
   text-shadow:1px 1px 1px black;
-margin-bottom:0px;}
+  margin-bottom: 0px;
+}
 
 @media (max-width: 800px) {
   #gallery img {
@@ -60,14 +61,21 @@ margin-bottom:0px;}
 }
 h2:hover{
   font-size:50px;
-  text-shadow: 2px 2px 2px yellow
+  text-shadow: 2px 2px 2px yellow;
+  transform:scale(1.1);
+  margin-bottom: 0px;
 }
 h4{
   color:black;
   text-align:center;
   text-decoration:underline;
-  margin-top:0;
+  margin:0;
   font-weight:900px;
+  margin-top: 0px;
+}
+a{
+  width: 25%;
+  height: 300px;
 }
 
 
@@ -75,11 +83,11 @@ h4{
   </head>
   <body>
     <div class="header">
-      <h2>AT GLA UNIVERSITY WE CREATE,WE INSPIRE</h2>
+      <a href="https://www.gla.ac.in/"><h2>AT GLA UNIVERSITY WE CREATE,WE INSPIRE</h2></a>
       <h4>we make the way to your success</h4>
     </div>
     <div id="gallery">
-      <img src="images/gla1.jpg"/>
+      <!--<img src="images/gla1.jpg"/>
       <img src="images/gla2.jpg"/>
       <img src="images/gla3.jpg"/>
       <img src="images/gla4.jpg">
@@ -88,7 +96,17 @@ h4{
       <img src="images/gla7.jpg"/>
       <img src="images/gla8.jpg"/>
       <img src="images/gla9.jpg"/>
-      <img src="images/gla10.jpg"/>
+      <img src="images/gla10.jpg"/>-->
+      <a href="images/gla1.jpg"><img src="images/gla1.jpg"/></a>
+      <a href="images/gla2.jpg"><img src="images/gla2.jpg"/></a>
+      <a href="images/gla3.jpg"><img src="images/gla3.jpg"/></a>
+      <a href="images/gla4.jpg"><img src="images/gla4.jpg"/></a>
+      <a href="images/gla5.jpg"><img src="images/gla5.jpg"/></a>
+      <a href="images/gla6.jpg"><img src="images/gla6.jpg"/></a>
+      <a href="images/gla7.jpg"><img src="images/gla7.jpg"/></a>
+      <a href="images/gla8.jpg"><img src="images/gla8.jpg"/></a>
+      <a href="images/gla9.jpg"><img src="images/gla9.jpg"/></a>
+      <a href="images/gla10.jpg"><img src="images/gla10.jpg"/></a>
     </div>
   </body>
 </html>
